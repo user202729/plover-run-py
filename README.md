@@ -24,7 +24,8 @@ Variables `engine` and `plover` are provided.
 
 Remember to escape the characters in `\{}` according to Plover's dictionary format.
 
-Alternatively, if the definition has the form `"{PLOVER:PY_F:path}"`, the command
+Alternatively, if the definition has the form `"{PLOVER:PY_F:path}"`, the content of the file
+at the given path will be run as Python code.
 
 **Note**: If the command takes a long time to finish, Plover might freeze.
 
