@@ -38,9 +38,9 @@ for more details.
 * Sleep between key presses: `{#a}{plover:py:import time; time.sleep(1)}{#b}`
 * Toggle a plugin and show a warning notification on the status: (broken into multiple lines for readability)
 
-	```
-	{plover:py:
-	engine["enabled_extensions"]^=\{'ibus'\};
-	plover.log.warning('ibus enabled=' + str('ibus' in engine["enabled_extensions"]))
-	}
-	```
+   ```
+   {plover:py:
+   engine["enabled_extensions"]^=\{'ibus'\};
+   plover.log.warning('ibus enabled=' + str('ibus' in engine["enabled_extensions"]))
+   }
+   ```
