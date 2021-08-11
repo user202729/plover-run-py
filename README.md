@@ -5,7 +5,10 @@ Command plugin for Plover to run an arbitrary Python command.
 only be used for personal usage. If the usage is sufficiently general, it's recommended to make
 a Plover command plugin instead.
 
-See also:
+It's also possible to execute a command from the command-line, using
+[the `plover_send_command` script](https://plover.readthedocs.io/en/latest/cli_reference.html#sending-commands).
+
+### See also
 
 * [`plover-run-shell` plugin](https://github.com/user202729/plover_run_shell) for running a shell command.
 * [`plover-debugging-console` plugin](https://github.com/user202729/plover-debugging-console) for
