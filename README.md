@@ -1,6 +1,10 @@
 # plover-run-py
 Command plugin for Plover to run an arbitrary Python command.
 
+**Warning**: While this plugin can do everything what a command plugin can, this should
+only be used for personal usage. If the usage is sufficiently general, it's recommended to make
+a Plover command plugin instead.
+
 See also:
 
 * [`plover-run-shell` plugin](https://github.com/user202729/plover_run_shell) for running a shell command.
