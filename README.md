@@ -7,6 +7,10 @@ a Plover command plugin instead.
 
 It's also possible to execute a command from the command-line, using
 [the `plover_send_command` script](https://plover.readthedocs.io/en/latest/cli_reference.html#sending-commands).
+Unfortunately, this method takes about 1.5s per call due to Plover's overhead.
+
+If `python -m plover.scripts.send_command` is used, the time is reduced to 0.3s per call,
+mostly because of `pkg_resources` import.
 
 ### See also
 
