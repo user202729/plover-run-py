@@ -47,9 +47,11 @@ Refer to the API reference ([1](https://plover.readthedocs.io/en/latest/api_refe
 for more details.
 
 * Sleep between key presses: `{#a}{plover:py:import time; time.sleep(1)}{#b}`
+
+   See also [plover-delay](https://github.com/user202729/plover-delay) for a dedicated plugin.
+
 * Toggle a plugin and show a warning notification on the status:
 (broken into multiple lines for readability)
-See also [user202729/plover-delay: Plover command plugin to sleep for some time.](https://github.com/user202729/plover-delay) for a dedicated plugin.
 
    ```
    {plover:py:
